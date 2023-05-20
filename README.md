@@ -156,8 +156,10 @@
 ## Translate with the existing Trained Model
 ### Khasi to English with Parameters
 1. Download the model and place/store in weights Directory
+
    Link: https://drive.google.com/file/d/162AODqoBZfP0LVBH0SBEitzL_e0ZOSQA/view?usp=share_link
 2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+  
    Link: https://drive.google.com/file/d/1oEvFk37uXdr9gGQMbGUoPPQjYtc1JGWR/view?usp=share_link
 3. Translate:
     Required File: Store the Test_file.txt in data Directory
@@ -169,8 +171,10 @@
     
 ### Khasi to English without Parameters
 1. Download the model and place/store in weights Directory
+   
    Link: https://drive.google.com/file/d/1YpKUbjxG4Nw0jyOzAfWBDDWCHvfUBLuU/view?usp=share_link
 2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   
    Link: https://drive.google.com/file/d/1BzJdJRzXxDKH__LhAnx5eJoli3Ua04yx/view?usp=share_link
 3. Translate:
     Required File: Store the Test_file.txt in data Directory
@@ -182,10 +186,13 @@
     
 ### English to Khasi with Parameters
 1. Download the model and place/store in weights Directory
+   
    Link: https://drive.google.com/file/d/1TTI-TMpYjWMCV63Fnw-HhPP1uUl7OQw9/view?usp=share_link
 2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   
    Link: https://drive.google.com/file/d/1o8wL4BpvTBCO8fVi3OBHYjSnMMYuaSFd/view?usp=share_link
 3. Translate:
+    
     Required File: Store the Test_file.txt in data Directory
     
     python translate.py
@@ -208,9 +215,12 @@
 ## A Hybrid system determine which translation model to adopt depending on the length of the input sentence.
 ### Translation of Khasi to English
 1. Download the model and place/store in weights Directory (Ignored if already downloaded)
+   
    Link: https://drive.google.com/file/d/1YpKUbjxG4Nw0jyOzAfWBDDWCHvfUBLuU/view?usp=share_link
+   
    Link: https://drive.google.com/file/d/162AODqoBZfP0LVBH0SBEitzL_e0ZOSQA/view?usp=share_link
 2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   
    Link: https://drive.google.com/file/d/1tb-oVwnQIaPSE8xxVHOkFHXkK5YPAGcJ/view?usp=share_link 
 3. Translate:
  Required File: Store the Test_file.txt in data Directory
@@ -221,9 +231,12 @@
    
  ### Translation of English to Khasi
 1. Download the model and place/store in weights Directory (Ignored if already downloaded)
+   
    Link: https://drive.google.com/file/d/1-CeOQ0og717ZJ6LuiJSyNuPVnV5fbUSd/view?usp=share_link
+   
    Link: https://drive.google.com/file/d/1TTI-TMpYjWMCV63Fnw-HhPP1uUl7OQw9/view?usp=share_link
 2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   
    Link: https://drive.google.com/file/d/168ebXKy5dpKO4ZEHi-3WkBVsTmMgT8g5/view?usp=share_link 
 3. Translate:
  Required File: Store the Test_file.txt in data Directory
