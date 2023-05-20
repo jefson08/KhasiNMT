@@ -41,5 +41,15 @@
         path_tgt_aug: data/New/Train_eng_aug.txt    # if is_augment_data is set to False then path_tgt_aug = None
         
  4. Note if Augmented corpus is not available then rename Train_kha_aug.txt and Train_eng_aug.txt to Train_kha.txt and Train_eng.txt respectively.
+ 5. Train the model 
+
+    python train.py
+    
+ 6. Translate/ Test your model
+    Required File: (Store file in data Directory)
+    
+    python translate.py
+    
+    Translated file (out.txt) will be generate in /data Directory
 
     
