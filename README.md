@@ -21,7 +21,7 @@
  Place the file in PreTrainModel/KhasiRoberta Directory
 
 #### Training Khasi to English Translation System with following parameters:
-      Initialisation if Embedding layer with Pre-trained Embedding Weights
+      Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
       Appending Pre-trained Context encoding
       
