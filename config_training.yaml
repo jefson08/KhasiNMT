@@ -1,0 +1,53 @@
+# config_training.yaml
+
+## Where the samples will be written
+save_data: None #None #weights  #Folder where the weights are stored or else set to None if you want to start training from beginning
+initilise_embedding: True #Set to 1 if Source/Target Embedding is to be initialise with context embedding
+context_embedding : False
+
+freeze_embedding: True # Set to False if you force the embedding not to learnt [Generally after a specific epoch we will enable embedding to learnt]
+is_augment_data: True
+# Corpus opts:
+data:
+    train:
+        path_src: data/New/Train_eng.txt
+        path_tgt: data/New/Train_kha.txt
+        #Augmented datasets are optional
+        path_src_aug: data/New/Train_eng_aug.txt    # if is_augment_data is set to False then path_src_aug = None
+        path_tgt_aug: data/New/Train_kha_aug.txt    # if is_augment_data is set to False then path_tgt_aug = None
+    prefix:
+        path_src: data/model_data/nonbreaking_prefix.en
+        path_tgt: data/model_data/nonbreaking_prefix.kha
+    pre_train_model:
+        model_path: PreTrainModel/KhasiRoberta
+
+
+
+language:
+    src: en
+    trg: kha
+
+# HyperParameters
+num_epochs: 1000
+save_checkpoint: 45 #Save after 15 minutes
+batchsize: [8] #[8192] #[8192] #[2048] #[8, 64, 128, 512,1024, 2048]
+printevery: 100
+learning_rate: [0.0001] #[0.1, 0.001, 0.0001, 0.00001, 0.000001]
+shuffle: [False] #[True]  #[False, True]   if batch_sampler is use then shuffle = False
+max_sentence_len: 160
+val_frac: 0.10  # precentage data in validation
+freq_threshold: 0 #freq_threshold for vacabulary
+num_workers: 2 # No. of subprocesses to use for data loading. 0 means that the data will be loaded in the main process. (default: 0)
+# set freeze_embedding: True for debugging
+debugging: 0 #Set to 1 if we want to check the performance of different lr, batch_size, shuffle else 0
+current_checkpoint: weights/current_checkpoint.pt
+best_model: weights/best_model.pt
+
+#Model Parameters [Avoid changing these parameters unless necessary]
+embedded_dim: 768
+num_layer: 6
+number_head: 8
+dropout: 0.1
+forward_expansion: 4
+SGDR: 1 #If True
+floyd: 0 #If False

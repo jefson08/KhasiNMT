@@ -1,0 +1,46 @@
+# config_en_kha.yaml
+
+## Where the samples will be written
+
+#####Learning_rate should be same as that of the training
+
+
+
+save_data: weights  #Folder where the weights are stored or else set to None if you want to start training from beginning
+s_context_embedding: False #Short Sentence Set to 0 for Source/Target Embedding 
+l_context_embedding: True  #Long Sentence Set to 1 for Source/Target Embedding 
+no_of_words: 20 # Number of words to be classified as short sentences
+# Corpus opts:
+data:
+    preprocess:
+        path_src: data/model_data/nonbreaking_prefix.kha
+    pre_train_model:
+        model_path: PreTrainModel/KhasiRoberta
+
+
+language:
+    src: kha
+    trg: en
+
+# HyperParameters
+beam: 3
+max_sentence_len: 160
+#num_epochs: 200
+save_checkpoint: 15 #Save after 15 minutes
+batchsize: [64]
+printevery: 100
+#learning_rate: [0.0001]
+shuffle: [True]
+learning_rate: 0.00030
+model_path_s_sent: weights/s_best_model.pt     #current_checkpoint.pt     #weights/best_model.pt  Short Sentence
+model_path_l_sent: weights/l_best_model.pt     #current_checkpoint.pt     #weights/best_model.pt    Long Sentence
+
+
+#Model Parameters [Avoid changing these parameters unless necessary]
+embedded_dim: 768
+num_layer: 6
+number_head: 8
+dropout: 0.1
+forward_expansion: 4
+floyd: 1 #If False
+#random_mask: 0.15 #Mask 15% of the total sentence
