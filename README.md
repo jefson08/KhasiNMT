@@ -196,3 +196,33 @@
     python translate.py
     
     Translated file (out.txt) will be generate in /data Directory
+    
+## A Hybrid system determine which translation model to adopt depending on the length of the input sentence.
+### Translation of Khasi to English
+1. Download the model and place/store in weights Directory (Ignored if already downloaded)
+   Link: https://drive.google.com/file/d/1YpKUbjxG4Nw0jyOzAfWBDDWCHvfUBLuU/view?usp=share_link
+   Link: https://drive.google.com/file/d/162AODqoBZfP0LVBH0SBEitzL_e0ZOSQA/view?usp=share_link
+2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   Link: https://drive.google.com/file/d/1tb-oVwnQIaPSE8xxVHOkFHXkK5YPAGcJ/view?usp=share_link 
+3. Translate:
+ Required File: Store the Test_file.txt in data Directory
+
+ python translate_hybrid.py
+
+ Translated file (out.txt) will be generate in /data Directory
+   
+ ### Translation of English to Khasi
+1. Download the model and place/store in weights Directory (Ignored if already downloaded)
+   Link: https://drive.google.com/file/d/1-CeOQ0og717ZJ6LuiJSyNuPVnV5fbUSd/view?usp=share_link
+   Link: https://drive.google.com/file/d/1TTI-TMpYjWMCV63Fnw-HhPP1uUl7OQw9/view?usp=share_link
+2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   Link: https://drive.google.com/file/d/168ebXKy5dpKO4ZEHi-3WkBVsTmMgT8g5/view?usp=share_link 
+3. Translate:
+ Required File: Store the Test_file.txt in data Directory
+
+ python translate_hybrid.py
+
+ Translated file (out.txt) will be generate in /data Directory
+ 
+## BLEU Score 
+perl multi-bleu.perl data/Reference.txt < data/predicted.txt
