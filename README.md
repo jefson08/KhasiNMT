@@ -54,5 +54,35 @@
     python translate.py
     
     Translated file (out.txt) will be generate in /data Directory
+    
+    
+ #### Training Khasi to English Translation System without the following parameters:
+      Initialisation of Embedding layer with Pre-trained Embedding Weights
+      Data Augmentation
+      Appending Pre-trained Context encodiing to local learned encoding
+      
+1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Link: https://drive.google.com/file/d/1YisCNfpnEYplYHAkgt3HtYjICNM0F-7t/view?usp=share_link
+
+3. Require File: (Store file in data/New Directory)
+
+        path_src: data/New/Train_kha.txt
+        
+        path_tgt: data/New/Train_eng.txt
+        
+        
+ 4. Train the model 
+
+    python train.py
+    
+ 5. Translate/ Test your model
+    Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+    Link: https://drive.google.com/file/d/1BzJdJRzXxDKH__LhAnx5eJoli3Ua04yx/view?usp=share_link
+    
+    Required File: Store the Test_file.txt in data Directory
+    
+    python translate.py
+    
+    Translated file (out.txt) will be generate in /data Directory
 
     
