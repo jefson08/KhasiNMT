@@ -22,9 +22,9 @@
 
 
 
-# config_training.yaml
+\# config_training.yaml
 
-## Where the samples will be written
+\## Where the samples will be written
 save_data: weights #None #weights  #Folder where the weights are stored or else set to None if you want to start training from beginning
 initilise_embedding: True #Set to 1 if Source/Target Embedding is to be initialise with context embedding
 context_embedding : True
