@@ -23,7 +23,7 @@
 ### Training Khasi to English Translation System with following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
-      Appending Pre-trained Context encodiing to local learned encoding
+      Appending Pre-trained Context encoding to local learned encoding
       
 1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
 2. Link: https://drive.google.com/file/d/1ISJfoUho3T_ojzggH_lrg8VfD7DhkLx9/view?usp=share_link
@@ -59,7 +59,7 @@
  ### Training Khasi to English Translation System without the following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
-      Appending Pre-trained Context encodiing to local learned encoding
+      Appending Pre-trained Context encoding to local learned encoding
       
 1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
 2. Link: https://drive.google.com/file/d/1YisCNfpnEYplYHAkgt3HtYjICNM0F-7t/view?usp=share_link
@@ -88,7 +88,7 @@
 ### Training English to Khasi Translation System with following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
-      Appending Pre-trained Context encodiing to local learned encoding
+      Appending Pre-trained Context encoding to local learned encoding
       
 1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
 2. Link: https://drive.google.com/file/d/1yuknar0ideF-EgiF_ivkeePDzpEElbCD/view?usp=share_link
@@ -121,7 +121,7 @@
 ### Training English to Khasi Translation System without the following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
-      Appending Pre-trained Context encodiing to local learned encoding
+      Appending Pre-trained Context encoding to local learned encoding
       
 1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
 2. Link: https://drive.google.com/file/d/1n2XXleCWkqlk5sQVnxNq7-YEB7q1x1xe/view?usp=share_link
