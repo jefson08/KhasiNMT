@@ -202,8 +202,10 @@
     
 ### English to Khasi without Parameters
 1. Download the model and place/store in weights Directory
+   
    Link: https://drive.google.com/file/d/1-CeOQ0og717ZJ6LuiJSyNuPVnV5fbUSd/view?usp=share_link
 2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   
    Link: https://drive.google.com/file/d/1j3TnnzMBpljP5dWjE_40l5Kq6Wisbiut/view?usp=share_link
 3. Translate:
     Required File: Store the Test_file.txt in data Directory
