@@ -7,7 +7,9 @@
 
 1. pip install transformers
 2. pip install dill
-3. import nltk
+3. pip install --user -U nltk
+   
+   import nltk
    
    nltk.download('punkt')
 
