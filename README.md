@@ -1,9 +1,9 @@
 # KhasiNMT
-### This is English to Khasi and Khasi to English Neural Machine Translation System 
+## This is English to Khasi and Khasi to English Neural Machine Translation System 
 
-### Instruction
+## Instruction
 
-#### Install required Package
+### Install required Package
 
 1. Install PyTorch with GPU Capability
 2. Install Tensorflow
@@ -15,12 +15,12 @@
    
    nltk.download('punkt')
    
- #### Download Byte-Pair Encoding(BPE) Model for Tokenization and Vocabulary construction.
+ ### Download Byte-Pair Encoding(BPE) Model for Tokenization and Vocabulary construction.
  Link: https://drive.google.com/file/d/1ZpEdxUPIvvg7xycZvuclf24Al0az_YxS/view?usp=share_link
  
  Place the file in PreTrainModel/KhasiRoberta Directory
 
-#### Training Khasi to English Translation System with following parameters:
+### Training Khasi to English Translation System with following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
       Appending Pre-trained Context encodiing to local learned encoding
@@ -56,7 +56,7 @@
     Translated file (out.txt) will be generate in /data Directory
     
     
- #### Training Khasi to English Translation System without the following parameters:
+ ### Training Khasi to English Translation System without the following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
       Appending Pre-trained Context encodiing to local learned encoding
@@ -85,7 +85,7 @@
     
     Translated file (out.txt) will be generate in /data Directory
 
-#### Training English to Khasi Translation System with following parameters:
+### Training English to Khasi Translation System with following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
       Appending Pre-trained Context encodiing to local learned encoding
@@ -118,7 +118,7 @@
     
     
  
-#### Training English to Khasi Translation System without the following parameters:
+### Training English to Khasi Translation System without the following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
       Appending Pre-trained Context encodiing to local learned encoding
@@ -144,4 +144,55 @@
     python translate.py
     
     Translated file (out.txt) will be generate in /data Directory
+   
+## Translate with the existing Trained Model
+### Khasi to English with Parameters
+1. Download the model and place/store in weights Directory
+   Link: https://drive.google.com/file/d/162AODqoBZfP0LVBH0SBEitzL_e0ZOSQA/view?usp=share_link
+2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   Link: https://drive.google.com/file/d/1oEvFk37uXdr9gGQMbGUoPPQjYtc1JGWR/view?usp=share_link
+3. Translate:
+    Required File: Store the Test_file.txt in data Directory
     
+    python translate.py
+    
+    Translated file (out.txt) will be generate in /data Directory
+    
+    
+### Khasi to English without Parameters
+1. Download the model and place/store in weights Directory
+   Link: https://drive.google.com/file/d/1YpKUbjxG4Nw0jyOzAfWBDDWCHvfUBLuU/view?usp=share_link
+2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   Link: https://drive.google.com/file/d/1BzJdJRzXxDKH__LhAnx5eJoli3Ua04yx/view?usp=share_link
+3. Translate:
+    Required File: Store the Test_file.txt in data Directory
+    
+    python translate.py
+    
+    Translated file (out.txt) will be generate in /data Directory
+    
+    
+### English to Khasi with Parameters
+1. Download the model and place/store in weights Directory
+   Link: https://drive.google.com/file/d/1TTI-TMpYjWMCV63Fnw-HhPP1uUl7OQw9/view?usp=share_link
+2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   Link: https://drive.google.com/file/d/1o8wL4BpvTBCO8fVi3OBHYjSnMMYuaSFd/view?usp=share_link
+3. Translate:
+    Required File: Store the Test_file.txt in data Directory
+    
+    python translate.py
+    
+    Translated file (out.txt) will be generate in /data Directory
+    
+    
+### English to Khasi without Parameters
+1. Download the model and place/store in weights Directory
+   Link: https://drive.google.com/file/d/1-CeOQ0og717ZJ6LuiJSyNuPVnV5fbUSd/view?usp=share_link
+2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+   Link: https://drive.google.com/file/d/1j3TnnzMBpljP5dWjE_40l5Kq6Wisbiut/view?usp=share_link
+3. Translate:
+    Required File: Store the Test_file.txt in data Directory
+    
+    python translate.py
+    
+    Translated file (out.txt) will be generate in /data Directory
