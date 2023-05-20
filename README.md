@@ -23,7 +23,7 @@
 #### Training Khasi to English Translation System with following parameters:
       Initialisation of Embedding layer with Pre-trained Embedding Weights
       Data Augmentation
-      Appending Pre-trained Context encoding
+      Appending Pre-trained Context encodiing to local learned encoding
       
 1. Download Config File and Place/Replace in the root path (KhasiNMT)
 2. Link: https://drive.google.com/file/d/1ISJfoUho3T_ojzggH_lrg8VfD7DhkLx9/view?usp=share_link
