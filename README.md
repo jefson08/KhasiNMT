@@ -5,9 +5,11 @@
 
 #### Install required Package
 
-1. pip install transformers
-2. pip install dill
-3. pip install --user -U nltk
+1. Install PyTorch with GPU Capability
+2. Install Tensorflow
+3. pip install transformers
+4. pip install dill
+5. pip install --user -U nltk
    
    import nltk
    
