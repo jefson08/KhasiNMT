@@ -48,6 +48,7 @@
  6. Translate/ Test your model
  
     Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+    
     Link: https://drive.google.com/file/d/1oEvFk37uXdr9gGQMbGUoPPQjYtc1JGWR/view?usp=share_link
     
     Required File: Store the Test_file.txt in data Directory
@@ -79,6 +80,7 @@
  5. Translate/ Test your model
  
     Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+    
     Link: https://drive.google.com/file/d/1BzJdJRzXxDKH__LhAnx5eJoli3Ua04yx/view?usp=share_link
     
     Required File: Store the Test_file.txt in data Directory
@@ -111,6 +113,7 @@
  6. Translate/ Test your model
  
     Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+    
     Link: https://drive.google.com/file/d/1o8wL4BpvTBCO8fVi3OBHYjSnMMYuaSFd/view?usp=share_link
     
     Required File: Store the Test_file.txt in data Directory
@@ -141,6 +144,7 @@
  6. Translate/ Test your model
  
     Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+    
     Link: https://drive.google.com/file/d/1j3TnnzMBpljP5dWjE_40l5Kq6Wisbiut/view?usp=share_link
     
     Required File: Store the Test_file.txt in data Directory
