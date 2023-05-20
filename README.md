@@ -226,3 +226,5 @@
  
 ## BLEU Score 
 perl multi-bleu.perl data/Reference.txt < data/predicted.txt
+
+## Open SemanticSimilarity.ipynb in Jupyter Notebook to Calculate Semantic Similarity
