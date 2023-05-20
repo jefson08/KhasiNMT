@@ -25,7 +25,7 @@
       Data Augmentation
       Appending Pre-trained Context encodiing to local learned encoding
       
-1. Download Config File and Place/Replace in the root path (KhasiNMT)
+1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
 2. Link: https://drive.google.com/file/d/1ISJfoUho3T_ojzggH_lrg8VfD7DhkLx9/view?usp=share_link
 
 3. Require File: (Store file in data/New Directory)
@@ -39,5 +39,7 @@
         path_src_aug: data/New/Train_kha_aug.txt    # if is_augment_data is set to False then path_src_aug = None
         
         path_tgt_aug: data/New/Train_eng_aug.txt    # if is_augment_data is set to False then path_tgt_aug = None
+        
+ 4. Note if Augmented corpus is not available then rename Train_kha_aug.txt and Train_eng_aug.txt to Train_kha.txt and Train_eng.txt respectively.
 
     
