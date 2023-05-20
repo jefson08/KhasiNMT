@@ -31,7 +31,7 @@ context_embedding : True
 
 freeze_embedding: True # Set to False if you force the embedding not to learnt [Generally after a specific epoch we will enable embedding to learnt]
 is_augment_data: True
-# Corpus opts:
+\# Corpus opts:
 data:
     train:
         path_src: data/New/Train_kha.txt
