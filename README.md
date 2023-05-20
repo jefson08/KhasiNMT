@@ -23,3 +23,17 @@
 #### Training Khasi to English Translation System
 1. Download Config File and Place/Replace in the root path (KhasiNMT)
 2. Link: https://drive.google.com/file/d/1ISJfoUho3T_ojzggH_lrg8VfD7DhkLx9/view?usp=share_link
+
+3. Require File: (Store file in data/New Directory)
+
+        path_src: data/New/Train_kha.txt
+        
+        path_tgt: data/New/Train_eng.txt
+        
+        #Augmented datasets are optional
+        
+        path_src_aug: data/New/Train_kha_aug.txt    # if is_augment_data is set to False then path_src_aug = None
+        
+        path_tgt_aug: data/New/Train_eng_aug.txt    # if is_augment_data is set to False then path_tgt_aug = None
+
+    
