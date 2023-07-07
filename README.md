@@ -3,27 +3,24 @@
 
 ## Instruction
 
-### Install required Package
+### Install the required Packages
 
 1. Install PyTorch with GPU Capability
 2. Install Tensorflow
 3. pip install transformers
 4. pip install dill
 5. pip install --user -U nltk
-   
-   import nltk
-   
-   nltk.download('punkt')
+
    
  ### Download Byte-Pair Encoding(BPE) Model for Tokenization and Vocabulary construction.
  Link: https://drive.google.com/file/d/159W189thNM9YMAAwZUfTcij-3vC0qOkS/view?usp=sharing
  
  Place the file in PreTrainModel/KhasiRoberta Directory
 
-### Training Khasi to English Translation System with following parameters:
-      Initialisation of Embedding layer with Pre-trained Embedding Weights
-      Data Augmentation
-      Appending Pre-trained Context encoding to local learned encoding
+### Training Khasi to English Translation System with the following parameters:
+      #### Initialization of Embedding layer with Pre-trained Embedding Weights
+      #### Data Augmentation
+      #### Appending Pre-trained Context encoding to locally learned encoding
       
 1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
 2. Link: https://drive.google.com/file/d/1ISJfoUho3T_ojzggH_lrg8VfD7DhkLx9/view?usp=share_link
