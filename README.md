@@ -167,9 +167,9 @@
     Translated file (out.txt) will be generated in /data Directory
 
 
-### F. Training English to Khasi Translation System the following parameters:
-      a. No initialisation of Embedding layer with Pre-trained Embedding Weights
-      b. No Data Augmentation
+### F. Training English to Khasi Translation System with the following parameters:
+      a. No initialization of Embedding layer with Pre-trained Embedding Weights
+      b. No data Augmentation
       c. No appending of Pre-trained Context encoding to locally learned encoding
       
 1. Download the Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
@@ -203,37 +203,37 @@
       b. Data Augmentation
       c. Appending Pre-trained Context encoding to locally learned encoding
       
-1. Download the model and place/store in weights Directory
+1. Download the model and place/store it in the weights Directory
 
    Link: <a href="https://drive.google.com/file/d/1fuaVtjMIMl97bZSKM-NMvd9VNNee0r7-/view?usp=sharing">Download File</a>
    
-2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Download the Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
   
    Link: <a href="https://drive.google.com/file/d/1DBkJ7-d0DAUqg921HUvN7ralmhp6dzUW/view?usp=sharing">Download File</a>
 3. Translate:
-    Required File: Store the Test_file.txt in data Directory
+    Required File: Store the Test_file.txt in the data Directory
     
     python translate.py
     
-    Translated file (out.txt) will be generate in /data Directory
+    Translated file (out.txt) will be generated in /data Directory
     
     
 ### B. Khasi to English with the following parameters:
       a. Initialization of Embedding layer with Pre-trained Embedding Weights
       b. Data Augmentation
-      c. No Appending of Pre-trained Context encoding to local learned encoding
-1. Download the model and place/store in weights Directory
+      c. No Appending of Pre-trained Context encoding to locally learned encoding
+1. Download the model and place/store it in the weights Directory
    
    Link: <a href="https://drive.google.com/file/d/1a-BdUhNjORRAxW11w1mweCFyA_Rfse48/view?usp=sharing">Download File</a>
-2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Download the Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
    
    Link: <a href="https://drive.google.com/file/d/1VwXMw7xI-hKzrSEM7dmvuWZYNZwk7c1U/view?usp=sharing">Download File</a>
 3. Translate:
-    Required File: Store the Test_file.txt in data Directory
+    Required File: Store the Test_file.txt in the data Directory
     
     python translate.py
     
-    Translated file (out.txt) will be generate in /data Directory
+    Translated file (out.txt) will be generated in /data Directory
 
 ### C. Khasi to English with the following parameters:
       a. No initialization of Embedding layer with Pre-trained Embedding Weights
@@ -257,10 +257,10 @@
       a. Initialization of Embedding layer with Pre-trained Embedding Weights
       b. Data Augmentation
       c. Appending Pre-trained Context encoding to locally learned encoding
-1. Download the model and place/store in weights Directory
+1. Download the model and place/store it in the weights Directory
    
    Link: <a href="https://drive.google.com/file/d/1-3OHJEomo3AKepejOLze6T59DkAJphK0/view?usp=sharing">Download File</a>
-2. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Download the Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
    
    Link: <a href="https://drive.google.com/file/d/1TQ30DTuInBhH4G3OqFGBHXcg6HExkRF4/view?usp=sharing">Download File</a>
 3. Translate:
@@ -325,7 +325,7 @@
  Translated file (out.txt) will be generated in /data Directory
    
  ### B. Translation of English to Khasi
-1. Download the model and place/store in the weights Directory (Ignored if already downloaded)
+1. Download the model and place/store it in the weights Directory (Ignored if already downloaded)
    
    Link: <a href="https://drive.google.com/file/d/1nqaDLJ1q8DDV73CbgAbJHiwxp2H6b92z/view?usp=sharing">Download File </a>
    
