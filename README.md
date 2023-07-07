@@ -22,9 +22,8 @@
       b. Data Augmentation
       c. Appending Pre-trained Context encoding to locally learned encoding
       
-1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
-2. Link: https://drive.google.com/file/d/1ISJfoUho3T_ojzggH_lrg8VfD7DhkLx9/view?usp=share_link
-
+1. Download the config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Link: <a href="https://drive.google.com/file/d/1edSvNb1mLln7_5OxKmLNBMcxgQGD21Yq/view?usp=sharing"> Download File </a>
 3. Require File: (Store file in data/New Directory)
 
         path_src: data/New/Train_kha.txt
