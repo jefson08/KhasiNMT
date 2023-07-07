@@ -30,22 +30,21 @@
         
         path_tgt_aug: data/New/Train_eng_aug.txt    
         
- 5. Note if Augmented corpus is not available then rename Train_kha_aug.txt and Train_eng_aug.txt to Train_kha.txt and Train_eng.txt respectively.
- 6. Train the model 
+ 5. Train the model 
 
     python train.py
     
- 7. Translate/ Test your model
+ 7. Translate/Test your model
  
     Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
     
-    Link: https://drive.google.com/file/d/1oEvFk37uXdr9gGQMbGUoPPQjYtc1JGWR/view?usp=share_link
+    Link: <a href="https://drive.google.com/file/d/1DBkJ7-d0DAUqg921HUvN7ralmhp6dzUW/view?usp=sharing">Download File</a>
     
-    Required File: Store the Test_file.txt in data Directory
+    Required File: Store the Test_file.txt in the data Directory
     
     python translate.py
     
-    Translated file (out.txt) will be generate in /data Directory
+    Translated file (out.txt) will be generated in /data Directory
     
     
  ### Training Khasi to English Translation System without the following parameters:
