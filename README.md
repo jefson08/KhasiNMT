@@ -16,7 +16,7 @@
    nltk.download('punkt')
    
  ### Download Byte-Pair Encoding(BPE) Model for Tokenization and Vocabulary construction.
- Link: https://drive.google.com/file/d/1ZpEdxUPIvvg7xycZvuclf24Al0az_YxS/view?usp=share_link
+ Link: https://drive.google.com/file/d/159W189thNM9YMAAwZUfTcij-3vC0qOkS/view?usp=sharing
  
  Place the file in PreTrainModel/KhasiRoberta Directory
 
