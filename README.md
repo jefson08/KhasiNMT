@@ -137,7 +137,7 @@
     Translated file (out.txt) will be generated in /data Directory
     
  
-### E. Training English to Khasi Translation System the following parameters:
+### E. Training English to Khasi Translation System with the following parameters:
       a. Initialisation of Embedding layer with Pre-trained Embedding Weights
       b. Data Augmentation
       c. No appending of Pre-trained Context encoding to locally learned encoding
