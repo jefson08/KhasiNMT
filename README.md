@@ -47,13 +47,13 @@
     Translated file (out.txt) will be generated in /data Directory
     
     
- ### Training Khasi to English Translation System without the following parameters:
-      Initialisation of Embedding layer with Pre-trained Embedding Weights
-      Data Augmentation
-      Appending Pre-trained Context encoding to local learned encoding
+ ### Training Khasi to English Translation System with the following parameters:
+      a. Initialization of Embedding layer with Pre-trained Embedding Weights
+      b. Data Augmentation
+      c. No Appending of Pre-trained Context encoding to local learned encoding
       
-1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
-2. Link: https://drive.google.com/file/d/1YisCNfpnEYplYHAkgt3HtYjICNM0F-7t/view?usp=share_link
+1. Download the Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Link: <a href="https://drive.google.com/file/d/1QaUC1K201CXd78-G_CHCSNLRvsWc28im/view?usp=sharing">Download File </a>
 
 3. Require File: (Store file in data/New Directory)
 
@@ -70,7 +70,7 @@
  
     Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
     
-    Link: https://drive.google.com/file/d/1BzJdJRzXxDKH__LhAnx5eJoli3Ua04yx/view?usp=share_link
+    Link: <a href="https://drive.google.com/file/d/1VwXMw7xI-hKzrSEM7dmvuWZYNZwk7c1U/view?usp=sharing">Download File</a>
     
     Required File: Store the Test_file.txt in data Directory
     
