@@ -13,7 +13,7 @@
 
    
  ### Download Byte-Pair Encoding(BPE) Model for Tokenization and Vocabulary construction.
- Link: Download File
+ Link: <a href="https://drive.google.com/file/d/159W189thNM9YMAAwZUfTcij-3vC0qOkS/view?usp=sharing">Download FIle </a>
  
  Place the file in PreTrainModel/KhasiRoberta Directory
 
