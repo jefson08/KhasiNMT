@@ -88,8 +88,8 @@
 
 3. Require File: (Store file in data/New Directory)
 
-        path_src: data/New/Train_eng.txt
-        path_tgt: data/New/Train_kha.txt
+        path_src: data/New/Train_kha.txt
+        path_tgt: data/New/Train_eng.txt
         
  4. Train the model 
 
@@ -107,23 +107,19 @@
     
     Translated file (out.txt) will be generated in /data Directory
     
-### Training English to Khasi Translation System with the following parameters:
+### D. Training English to Khasi Translation System with the following parameters:
       a. Initialization of Embedding layer with Pre-trained Embedding Weights
       b. Data Augmentation
       c. Appending Pre-trained Context encoding to locally learned encoding
       
-1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
-2. Link: https://drive.google.com/file/d/1yuknar0ideF-EgiF_ivkeePDzpEElbCD/view?usp=share_link
+1. Download the Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Link: <a href="https://drive.google.com/file/d/1SjFqTGJvWEkKo2Iycog-tp_1MNY-D0NC/view?usp=sharing">Download File </a>
 
 3. Require File: (Store file in data/New Directory)
-
-        path_src: data/New/Train_eng.txt
-        path_tgt: data/New/Train_kha.txt
-        #Augmented datasets are optional
-        path_src_aug: data/New/Train_eng_aug.txt    # if is_augment_data is set to False then path_src_aug = None
-        path_tgt_aug: data/New/Train_kha_aug.txt    # if is_augment_data is set to False then path_tgt_aug = None
+   
+        path_src_aug: data/New/Train_eng_aug.txt   
+        path_tgt_aug: data/New/Train_kha_aug.txt    
         
- 4. Note if Augmented corpus is not available then rename Train_eng_aug.txt and Train_kha_aug.txt to Train_eng.txt and Train_kha.txt respectively.
  5. Train the model 
 
     python train.py
@@ -132,22 +128,52 @@
  
     Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
     
-    Link: https://drive.google.com/file/d/1o8wL4BpvTBCO8fVi3OBHYjSnMMYuaSFd/view?usp=share_link
+    Link: <a href="https://drive.google.com/file/d/1TQ30DTuInBhH4G3OqFGBHXcg6HExkRF4/view?usp=sharing">Download File</a>
     
-    Required File: Store the Test_file.txt in data Directory
+    Required File: Store the Test_file.txt in the data Directory
     
     python translate.py
     
-    Translated file (out.txt) will be generate in /data Directory
+    Translated file (out.txt) will be generated in /data Directory
     
  
-### Training English to Khasi Translation System without the following parameters:
-      Initialisation of Embedding layer with Pre-trained Embedding Weights
-      Data Augmentation
-      Appending Pre-trained Context encoding to local learned encoding
+### E. Training English to Khasi Translation System the following parameters:
+      a. Initialisation of Embedding layer with Pre-trained Embedding Weights
+      b. Data Augmentation
+      c. No appending of Pre-trained Context encoding to locally learned encoding
       
-1. Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
-2. Link: https://drive.google.com/file/d/1n2XXleCWkqlk5sQVnxNq7-YEB7q1x1xe/view?usp=share_link
+1. Download the Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Link: <a href="https://drive.google.com/file/d/14BgsNwhzBMQXqkZqId59quxOHCvt-sna/view?usp=sharing">Download File</a>
+
+3. Require File: (Store file in data/New Directory)
+
+        path_src_aug: data/New/Train_eng_aug.txt   
+        path_tgt_aug: data/New/Train_kha_aug.txt
+       
+ 5. Train the model 
+
+    python train.py
+    
+ 6. Translate/ Test your model
+ 
+    Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+    
+    Link: <a href="https://drive.google.com/file/d/1Ghuu0pfZ0pEuG1iFn1f3Fo4unS4D4rl2/view?usp=sharing">Download File</a>
+    
+    Required File: Store the Test_file.txt in the data Directory
+    
+    python translate.py
+    
+    Translated file (out.txt) will be generated in /data Directory
+
+
+### F. Training English to Khasi Translation System the following parameters:
+      a. No initialisation of Embedding layer with Pre-trained Embedding Weights
+      b. No Data Augmentation
+      c. No appending of Pre-trained Context encoding to locally learned encoding
+      
+1. Download the Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
+2. Link: <a href="https://drive.google.com/file/d/1WUa1BPAAslTDZ1no3KCNzexr4ghwCwzM/view?usp=sharing">Download File</a>
 
 3. Require File: (Store file in data/New Directory)
 
@@ -158,19 +184,20 @@
 
     python train.py
     
- 6. Translate/ Test your model
+ 6. Translate/Test your model
  
     Download Config File and Place/Replace in the root path (Here root directory is KhasiNMT)
     
-    Link: https://drive.google.com/file/d/1j3TnnzMBpljP5dWjE_40l5Kq6Wisbiut/view?usp=share_link
+    Link: <a href="https://drive.google.com/file/d/1-UpVPA6oTgyKcTa8TVpx9mV9WquxLEpZ/view?usp=sharing">Download File</a>
     
-    Required File: Store the Test_file.txt in data Directory
+    Required File: Store the Test_file.txt in the data Directory
     
     python translate.py
     
-    Translated file (out.txt) will be generate in /data Directory
-   
-## Translate with the existing Trained Model
+    Translated file (out.txt) will be generated in /data Directory
+
+  
+# Translate with the existing Trained Model
 ### Khasi to English with Parameters
 1. Download the model and place/store in weights Directory
 
