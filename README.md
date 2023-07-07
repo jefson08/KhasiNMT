@@ -24,14 +24,7 @@
       
 1. Download the config File and Place/Replace in the root path (Here root directory is KhasiNMT)
 2. Link: <a href="https://drive.google.com/file/d/1edSvNb1mLln7_5OxKmLNBMcxgQGD21Yq/view?usp=sharing"> Download File </a>
-3. Require File: (Store file in data/New Directory)
-
-        path_src: data/New/Train_kha.txt
-        
-        path_tgt: data/New/Train_eng.txt
-        
-        #Augmented datasets are optional
-        
+3. Require File: (Store file in data/New Directory)      
         path_src_aug: data/New/Train_kha_aug.txt    # if is_augment_data is set to False then path_src_aug = None
         
         path_tgt_aug: data/New/Train_eng_aug.txt    # if is_augment_data is set to False then path_tgt_aug = None
