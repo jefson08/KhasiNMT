@@ -26,9 +26,9 @@
 2. Link: <a href="https://drive.google.com/file/d/1edSvNb1mLln7_5OxKmLNBMcxgQGD21Yq/view?usp=sharing"> Download File </a>
 3. Require File: (Store file in data/New Directory)
    
-        path_src_aug: data/New/Train_kha_aug.txt    # if is_augment_data is set to False then path_src_aug = None
+        path_src_aug: data/New/Train_kha_aug.txt   
         
-        path_tgt_aug: data/New/Train_eng_aug.txt    # if is_augment_data is set to False then path_tgt_aug = None
+        path_tgt_aug: data/New/Train_eng_aug.txt    
         
  5. Note if Augmented corpus is not available then rename Train_kha_aug.txt and Train_eng_aug.txt to Train_kha.txt and Train_eng.txt respectively.
  6. Train the model 
